@@ -83,9 +83,61 @@ nav ul li a{
 .feature .anim{
     animation-delay: 1.5s;
 }
+
+
+.content{
+    width: 100%;
+    padding: 2% 10%;
+    display: flex;
+    margin-top: 52px;
+}
+.box{
+    width: 30%;
+    box-shadow: 4px 4px 14px #110202;
+    margin-left: 30px;
+    position: relative;
+}
+.phone{
+    width: 202px;
+    margin-left: 37px;
+    padding: 9px;
+}
+.box h3{
+    text-align: center;
+    color: deeppink;
+}
+.prich {
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    top: 11px;
+    margin-left: 4px;
+}
+.lorem{
+    text-align: center;
+    margin-top: 13px;
+    margin-bottom: 8px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.mobail {
+    text-align: center;
+    margin-top: 12%;
+    font-size: 46px;
+    color: orange;
+  }
+
+
+
+
+
+
+
+
+
 .anim{
     opacity: 0px;
-    transform: translateY(40px);
+    transform: translateY(30px);
     animation: move-right 0.5s linear forwards ;
 }
 @keyframes move-right {
